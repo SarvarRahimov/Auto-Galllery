@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oto galeri</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head >
+<body class="bg-sky-900" >
+    <div class=" flex flex-col border-2 rounded-xl border-stone-500 py-10">
+        <h1 class="text-center text-white text-4xl font-semibold ">Auto gallery</h1>
+        <div class="flex justify-around pt-10 ">
+            <input type="text"  placeholder="Car name" class="w-72 border-2 border-white p-2 rounded-xl bg-cyan-300 text-white outline-none">
+            <input type="text" placeholder="Car price" class="w-72 border-2 border-white p-2  rounded-xl bg-cyan-300 text-white outline-none">
+            <input type="url" placeholder="Car photo link" class="w-72 border-2 border-white p-2 rounded-xl bg-cyan-300 text-white outline-none">
+        </div>
+        <div class="max-w-full flex justify-center mt-7">
+            <button class=" border border-white px-10 py-2 rounded-xl bg-cyan-300 text-white font-normal text-base">Submit</button>
+        </div>
+    </div>
+    <div class="flex justify-around mt-7">
+        <h1 class="text-white text-3xl font-semibold">Car photo</h1>
+        <h1 class="text-white text-3xl font-semibold">Car name</h1>
+        <h1 class="text-white text-3xl font-semibold">Car price</h1>
+    </div>
+    
+    <script src="car.js"></script>
+    <script src="UI.js"></script>
+    <script src="storage.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
